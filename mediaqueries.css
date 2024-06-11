@@ -18,6 +18,7 @@
   }
   #hamburger {
     display: flex;
+    z-index: 10;
   }
   #experience,
   .experience-details-container {
@@ -98,6 +99,6 @@
     font-size: 2rem;
   }
   .text-container {
-    text-align: justify;
+    text-align: center;
   }
 }
