@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu Portifólio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="nav">
+      <div class="logo"> <a href="index.html">Vitor Hugo</a></div>
+      <div>
+        <ul class="links">
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="experiencia.html">Experiência</a></li>
+          <li><a href="projetos.html">Projetos</a></li>
+          <li><a href="contato.html">Contatos</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger">
+        <div class="logo"> <a href="index.html">Vitor Hugo</a></div>
+      <div class="hamburger-menu">
+        <div class="icone-hamburger" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="links">
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="experiencia.html">Experiência</a></li>
+          <li><a href="projetos.html">Projetos</a></li>
+          <li><a href="contato.html">Contatos</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="contato">
+        <p class="section__text__p1">Entrar em Contato</p>
+        <h1 class="title">Contate-me</h1>
+        <div class="contato-info-upper-container">
+          <div class="contato-info-container">
+            <img
+              src="./assets/email.png"
+              alt="Email icon"
+              class="icon contato-icon email-icon"
+            />
+            <p><a href="mailto:examplemail@gmail.com">vitorhugkrodrigues@gmail.com</a></p>
+          </div>
+          <div class="contato-info-container">
+            <img
+              src="./assets/linkedin.png"
+              alt="LinkedIn icon"
+              class="icon contato-icon"
+            />
+            <p><a href="https://linkedin.com/in/vitorhugorodri">LinkedIn</a></p>
+          </div>
+        </div>
+      </section>
+      <script src="script.js"></script>
+  </body>
+</html>

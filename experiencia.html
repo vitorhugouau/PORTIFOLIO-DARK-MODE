@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu Portifólio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="nav">
+      <div class="logo"> <a href="index.html">Vitor Hugo</a></div>
+      <div>
+        <ul class="links">
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="experiencia.html">Experiência</a></li>
+          <li><a href="projetos.html">Projetos</a></li>
+          <li><a href="contato.html">Contatos</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger">
+        <div class="logo"> <a href="index.html">Vitor Hugo</a></div>
+      <div class="hamburger-menu">
+        <div class="icone-hamburger" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="links-menu">
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="experiencia.html">Experiência</a></li>
+          <li><a href="projetos.html">Projetos</a></li>
+          <li><a href="contato.html">Contatos</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="experience">
+        <p class="section__text__p1">Explore minha</p>
+        <h1 class="title">Experiência</h1>
+        <div class="experience-details-container">
+          <div class="sobre-containers">
+            <div class="details-container">
+              <h2 class="experience-sub-title">Full Stack Developer</h2>
+              <div class="article-container">
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>HTML</h3>
+                    <p> Experiente</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>CSS</h3>
+                    <p>Experiente</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>PHP</h3>
+                    <p>Experiente</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>SQL</h3>
+                    <p>Intermediário</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Git</h3>
+                    <p>Intermediário</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>JAVA</h3>
+                    <p>Intermediário</p>
+                  </div>
+                </article>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#projects'"
+        />
+      </section>
+      <script src="script.js"></script>
+  </body>
+</html>

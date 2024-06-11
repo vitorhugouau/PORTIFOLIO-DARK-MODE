@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu Portifólio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="nav">
+      <div class="logo"> <a href="index.html">Vitor Hugo</a></div>
+      <div>
+        <ul class="links">
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="experiencia.html">Experiência</a></li>
+          <li><a href="projetos.html">Projetos</a></li>
+          <li><a href="contato.html">Contatos</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger">
+        <div class="logo"> <a href="index.html">Vitor Hugo</a></div>
+      <div class="hamburger-menu">
+        <div class="icone-hamburger" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="links-menu">
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="experiencia.html">Experiência</a></li>
+          <li><a href="projetos.html">Projetos</a></li>
+          <li><a href="contato.html">Contatos</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="projects">
+        <!-- <p class="section__text__p1">Browse My Recent</p> -->
+        <h1 class="title">Projetos</h1>
+        <div class="experience-details-container">
+          <div class="sobre-containers">
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/projeto1.png"
+                  alt="Project 1"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Biblioteca de Fotos</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/vitorhugouau/php_men.git'"
+                >
+                  Github
+                
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/projeto2.png"
+                  alt="Project 2"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Loja de Informática</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/yagofontanez/PROJETO-DE-SISTEMAS-III.git'"
+                >
+                  Github
+                </button>
+                
+              </div>
+            </div>
+           
+          </div>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#contact'"
+        />
+      </section>
+      <script src="script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu Portifólio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="nav">
+      <div class="logo"> <a href="index.html">Vitor Hugo</a></div>
+      <div>
+        <ul class="links">
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="experiencia.html">Experiência</a></li>
+          <li><a href="projetos.html">Projetos</a></li>
+          <li><a href="contato.html">Contatos</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger">
+      <div class="logo">Vitor Hugo</div>
+      <div class="hamburger-menu">
+        <div class="icone-hamburger" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="links-menu">
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="experiencia.html">Experiência</a></li>
+          <li><a href="projetos.html">Projetos</a></li>
+          <li><a href="contato.html">Contatos</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="sobre">
+        <!-- <p class="section__text__p1">Get To Know More</p> -->
+        <h1 class="title">Sobre Mim</h1>
+        <div class="section-container">
+          <div class="section__pic-container">
+            <img
+              src="./assets/sobre.jpg"
+              alt="Profile picture"
+              class="sobre-pic"
+            />
+          </div>
+          <div class="sobre-details-container">
+            <div class="sobre-containers">
+              <div class="details-container">
+                <img
+                  src="./assets/experience.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <h3>Experiência</h3>
+                <p>8 meses <br />Suporte TI</p>
+              </div>
+              
+            </div>
+            <div class="text-container">
+              <p>
+                No momento atual estudo no Instituto Toledo de Ensino, realizando o bacharelado de Sistemas De Informação, além do 
+                Tecnólogo em Análise e Desenvolvimento de Sistemas, onde estou construindo uma base solida de conhecimentos na 
+                área. Tenho me dedicado a diversos cursos online sobre programação e desenvolvimento, sempre em busca de evoluir.
+                Sou estagiário de TI, na Prefeitura Municipal de Iacanga, onde lá eu trabalho com Instalação, edição e configuração 
+                de softwares essenciais para os membros da Empresa, treinamento de uso dos mesmos, manutenção preventiva e corretiva 
+                nos equipamentos da Empresa, registro de uso dos softwares e hardware e emissão de relatórios.
+  
+              </p>
+            </div>
+          </div>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#experience'"
+        />
+      </section>
+     
+    <script src="script.js"></script>
+  </body>
+</html>
