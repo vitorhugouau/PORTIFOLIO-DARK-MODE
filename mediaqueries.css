@@ -185,7 +185,7 @@
     font-size: 1.9rem;
   }
   section {
-    margin: 9rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+    margin: 8rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
     
   }
   .links{
@@ -206,10 +206,10 @@
     margin: 8rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
   
     }
-}
-@media screen and (max-height: 668) {
-#experience{
-  margin: 11rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
-
-  }
+    @media screen and (max-height: 778px)  {
+      #experience{
+        margin: 10rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+      
+        }
+      }
 }
