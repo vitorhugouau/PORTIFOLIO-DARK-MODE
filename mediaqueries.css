@@ -151,13 +151,14 @@
   }
 
   section {
-    margin: 7rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+    margin: 11rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
   }
 
   .section__pic-container {
-    width: 245px;
-    height: 340px; 
+    /* width: 245px;
+    height: 340px;  */
     margin: 0 auto 2rem;
+    
   }
   
 
