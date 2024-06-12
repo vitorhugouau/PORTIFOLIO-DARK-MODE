@@ -6,7 +6,7 @@
   .sobre-containers {
     flex-wrap: wrap;
   }
-  #contact,
+  #contato,
   #projects {
     height: fit-content;
   }
@@ -69,10 +69,11 @@
   }
 
   .section__pic-container {
-    width: 275px;
-    height: 275px;
+    width: 245px;
+    height: 340px; 
     margin: 0 auto 2rem;
   }
+  
 
   .sobre-containers {
     margin-top: 0;
