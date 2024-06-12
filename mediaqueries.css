@@ -137,3 +137,12 @@
     text-align: center;
   }
 }
+@media screen and (max-width: 375px) {
+  section {
+    margin: 13rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+  }
+  .links{
+    font-size: 1.4rem;
+  }
+
+}
