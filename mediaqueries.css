@@ -1,3 +1,13 @@
+@media screen and (max-width: 1830) {
+  footer p {
+    text-align: center;
+    margin-top: 5rem; /* Adicionei margem superior */
+  }
+  .projeto-footer{
+    margin-top: 28em; /* Adicionei margem superior */
+  }
+  
+}
 @media screen and (max-width: 1400px) {
   #profile {
     height: 83vh;
@@ -9,6 +19,13 @@
   #contato,
   #projects {
     height: fit-content;
+  }
+  footer p {
+    text-align: center;
+    margin-top: 5rem; /* Adicionei margem superior */
+  }
+  .projeto-footer{
+    margin-top: 8em; /* Adicionei margem superior */
   }
 }@media screen and (max-width: 1200px) {
 
@@ -33,7 +50,7 @@
   #contato{
     height: 45vh;
   }
-  .contato-info-upper-container{
+  .contato-container{
     display: flex;
     flex-direction: column;
   }
@@ -93,7 +110,9 @@
   #contato,
   footer {
     height: 40vh;
-
+  }
+  .projeto-footer{
+    margin-top: 2em; /* Adicionei margem superior */
   }
   #profile {
     height: 83vh;
@@ -111,7 +130,7 @@
   .btn-container {
     flex-wrap: wrap;
   }
-  .contato-info-upper-container{
+  .contato-container{
     font-size: 0.8rem;
   }
   .contact-info-container {
@@ -173,7 +192,7 @@
     font-size: 1.4rem;
     width: 45px;
   }
-  .contato-info-upper-container {
+  .contato-container {
   font-size: 0.6rem;
 
 }

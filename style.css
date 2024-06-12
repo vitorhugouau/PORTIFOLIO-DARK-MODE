@@ -69,7 +69,7 @@ a:hover {
 }
 
 /* HAMBURGER MENU */
-
+/* 
 #hamburger {
   display: none;
 }
@@ -122,8 +122,8 @@ a:hover {
 
 .links-menu.open {
   max-height: 300px;
-}
-
+} */
+/* 
 .icone-hamburger.open span:first-child {
   transform: rotate(45deg) translate(10px, 5px);
 }
@@ -146,7 +146,7 @@ a:hover {
 
 .icone-hamburger span:first-child {
   transform: none;
-}
+} */
 
 /* SECTIONS */
 
@@ -398,7 +398,7 @@ article .icon {
   height: 70vh;
 }
 
-.contato-info-upper-container {
+.contato-container {
   display: flex;
   justify-content: center;
   border-radius: 2rem;
@@ -438,6 +438,9 @@ footer {
 
 footer p {
   text-align: center;
-  margin-top: 3rem; /* Adicionei margem superior */
+  margin-top: 2em; /* Adicionei margem superior */
 
+}
+.projeto-footer{
+  margin-top: 28em; /* Adicionei margem superior */
 }
