@@ -10,39 +10,63 @@
   #projects {
     height: fit-content;
   }
-}
+}@media screen and (max-width: 1200px) {
 
-@media screen and (max-width: 1200px) {
   #nav {
-    display: none;
-  }
-  #hamburger {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     z-index: 10;
+    margin-top: 2rem; /* Adicionei margem superior */
   }
+
+  .logo {
+    font-size: 2.1rem;
+    height: 10px;
+    margin: 2rem auto 1rem; /* Aumentei a margem superior */
+  }
+
+  .links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    margin-top: 1rem; /* Adicionei margem superior */
+  }
+
   #experience,
   .experience-details-container {
-    margin-top: 2rem;
+    margin-top: 6rem;
+  }
+  .section__text__p1{
+    font-size: 2rem;
   }
   #profile,
   .section-container {
     display: block;
   }
+
   .arrow {
     display: none;
   }
+
   section,
   .section-container {
     height: fit-content;
   }
+
   section {
-    margin: 0 5%;
+    margin: 7rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
   }
+
   .section__pic-container {
     width: 275px;
     height: 275px;
     margin: 0 auto 2rem;
   }
+
   .sobre-containers {
     margin-top: 0;
   }
@@ -72,20 +96,20 @@
   .contact-info-container {
     margin: 0;
   }
-  .contact-info-container p,
-  .links li a {
-    font-size: 1rem;
+  .section__text__p1{
+    font-size: 1.2rem;
   }
+  
   .experience-sub-title {
     font-size: 1.25rem;
   }
   .logo {
-    font-size: 1.5rem;
+    font-size: 1.9rem;
   }
   .links {
     flex-direction: column;
-    gap: 0.5rem;
     text-align: center;
+    
   }
   .section__pic-container {
     width: auto;
