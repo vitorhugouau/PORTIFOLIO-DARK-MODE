@@ -26,6 +26,13 @@
     margin: 2rem auto 1rem; /* Aumentei a margem superior */
   }
 
+  #contato{
+    height: 45vh;
+  }
+  .contato-info-upper-container{
+    display: flex;
+    flex-direction: column;
+  }
   .links {
     display: flex;
     flex-direction: column;
@@ -73,7 +80,7 @@
 }
 
 @media screen and (max-width: 600px) {
-  #contact,
+  #contato,
   footer {
     height: 40vh;
   }
