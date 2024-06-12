@@ -167,6 +167,7 @@
   }
   section {
     margin: 9rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+    
   }
   .links{
     font-size: 1.4rem;
@@ -181,9 +182,15 @@
 }
 .experience-details-container{
   margin: 2rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+  }
+  #experience{
+    margin: 8rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+  
+    }
 }
-/* #experience,
-.experience-details-container {
-  margin-top: 25rem;
-} */
+@media screen and (max-height: 668) {
+#experience{
+  margin: 11rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+
+  }
 }
