@@ -152,7 +152,7 @@ a:hover {
 
 section {
   padding-top: 4vh;
-  height: 96vh;
+  height: 72vh;
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
@@ -438,4 +438,6 @@ footer {
 
 footer p {
   text-align: center;
+  margin-top: 3rem; /* Adicionei margem superior */
+
 }
