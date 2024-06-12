@@ -49,7 +49,7 @@
 
   #experience,
   .experience-details-container {
-    margin-top: 8rem;
+    margin-top: 3rem;
   }
   .section__text__p1{
     font-size: 2rem;
@@ -147,10 +147,10 @@
   .text-container {
     text-align: center;
   }
-  /* #experience,
+  
   .experience-details-container {
-    margin-top: 10rem;
-  } */
+    margin: 2rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+  }
   /* .details-container{
     margin: 1rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
   /* }
@@ -159,8 +159,11 @@
   /* } */ 
 }
 @media screen and (max-width: 376px) {
+  .logo{
+    font-size: 1.9rem;
+  }
   section {
-    margin: 10rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+    margin: 9rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
   }
   .links{
     font-size: 1.4rem;
@@ -171,7 +174,10 @@
 
 }
 #contato{
-  margin: 8rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+  margin: 10rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+}
+.experience-details-container{
+  margin: 2rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
 }
 /* #experience,
 .experience-details-container {
