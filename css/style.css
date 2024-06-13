@@ -1,6 +1,19 @@
-/* GENERAL */
-
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+:root{
+  --rgb858585: rgb(85, 85, 85);
+  --black: black;
+  --white: white;
+  --grey: grey;
+  --rgb181: rgb(181, 181, 181);
+  --rgb53: rgb(53, 53, 53) 0.1rem solid;
+  --rgb535353: rgb(53, 53, 53);
+  --rgb255: rgb(255, 255, 255) 0.1rem solid;
+  --rgb: rgb(163, 163, 163);
+  --rgb0: rgb(0, 0, 0);
+  --rgb250: rgb(250, 250, 250);
+
+}
 
 * {
   margin: 0;
@@ -16,7 +29,7 @@ html {
 }
 
 p {
-  color: rgb(85, 85, 85);
+  color: var(--rgb858585);
 }
 
 a,
@@ -44,16 +57,16 @@ nav {
 }
 
 a {
-  color: black;
+  color: var(--black);
   text-decoration: none;
-  text-decoration-color: white;
+  text-decoration-color: var(--white);;
 }
 
 a:hover {
-  color: grey;
+  color: var(--grey);
   text-decoration: underline;
   text-underline-offset: 1rem;
-  text-decoration-color: rgb(181, 181, 181);
+  text-decoration-color: var(--rgb181);;
 }
 
 .logo {
@@ -142,7 +155,7 @@ section {
 
 .btn-color-1,
 .btn-color-2 {
-  border: rgb(53, 53, 53) 0.1rem solid;
+  border: var(--rgb53);
 }
 
 .btn-color-1:hover,
@@ -152,12 +165,12 @@ section {
 
 .btn-color-1,
 .btn-color-2:hover {
-  background: rgb(53, 53, 53);
-  color: white;
+  background: var(--rgb535353);;
+  color: var(--white);;
 }
 
 .btn-color-1:hover {
-  background: rgb(0, 0, 0);
+  background: var(--rgb0);
 }
 
 .btn-color-2 {
@@ -165,7 +178,7 @@ section {
 }
 
 .btn-color-2:hover {
-  border: rgb(255, 255, 255) 0.1rem solid;
+  border: var(--rgb255);
 }
 
 .container-botao {
@@ -202,10 +215,10 @@ section {
   display: flex;
   flex-direction: column;
   flex: 1;
-  background: white;
+  background: var(--white);;
   border-radius: 2rem;
-  border: rgb(53, 53, 53) 0.1rem solid;
-  border-color: rgb(163, 163, 163);
+  border: var(--rgb53);
+  border-color: var(--rgb163);
   text-align: center;
   align-content: center;
   justify-content: center;
@@ -222,7 +235,7 @@ section {
 }
 
 .experiencia-sub-titulo {
-  color: rgb(85, 85, 85);
+  color: var(--rgb858585);
   font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 2rem;
@@ -259,8 +272,8 @@ article .icon {
 }
 
 .color-container {
-  border-color: rgb(163, 163, 163);
-  background: rgb(250, 250, 250);
+  border-color: var(--rgb163);
+  background: var(--rgb250);
 }
 
 .projetos-imagem {
@@ -271,12 +284,12 @@ article .icon {
 
 .titulo-projeto {
   margin: 1rem;
-  color: black;
+  color: var(--black);
 }
 
 .projetos-botao {
-  color: black;
-  border-color: rgb(163, 163, 163);
+  color: var(--black);
+  border-color: var(--rgb163);
 }
 
 /* contato */
@@ -292,8 +305,8 @@ article .icon {
   display: flex;
   justify-content: center;
   border-radius: 2rem;
-  border: rgb(53, 53, 53) 0.1rem solid;
-  border-color: rgb(163, 163, 163);
+  border: var(--rgb53);
+  border-color: var(--rgb163);
   background: (250, 250, 250);
   margin: 2rem auto;
   padding: 0.5rem;
