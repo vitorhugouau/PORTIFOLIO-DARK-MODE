@@ -7,7 +7,7 @@
     margin-top: 28em; /* Adicionei margem superior */
   }
   @media screen and (max-height: 900px)  {
-    #experience{
+    #experiencia{
       margin: 10rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
       }
       section{
@@ -15,7 +15,7 @@
       }
     }
     @media screen and (max-height: 778px)  {
-      #experience{
+      #experiencia{
         margin: 10rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
         }
         section{
@@ -26,18 +26,18 @@
       section{
         margin: 1rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
       }
-      .sobre-details-container{
+      .sobre-detalhes-container{
         margin: 6rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
       }
       
       }
       @media screen and (max-height: 615px)  {
-        .sobre-details-container{
+        .sobre-detalhes-container{
           margin: 10rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
         }
       }
       @media screen and (max-height: 560px)  {
-        #experience{
+        #experiencia{
           margin: 12rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
         
           }
@@ -53,7 +53,7 @@
     flex-wrap: wrap;
   }
   #contato,
-  #projects {
+  #projetos {
     height: fit-content;
   }
   footer p {
@@ -64,7 +64,7 @@
     margin-top: 8em; /* Adicionei margem superior */
   }
   @media screen and (max-height: 778px)  {
-    #experience{
+    #experiencia{
       margin: 10rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
       }
       section{
@@ -75,18 +75,18 @@
     section{
       margin: 1rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
     }
-    .sobre-details-container{
+    .sobre-detalhes-container{
       margin: 6rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
     }
     
     }
     @media screen and (max-height: 615px)  {
-      .sobre-details-container{
+      .sobre-detalhes-container{
         margin: 10rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
       }
     }
     @media screen and (max-height: 560px)  {
-      #experience{
+      #experiencia{
         margin: 12rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
       
         }
@@ -129,25 +129,21 @@
     margin-top: 1rem; /* Adicionei margem superior */
   }
 
-  #experience,
-  .experience-details-container {
+  #experiencia,
+  .experiencia-container {
     margin-top: 7rem;
   }
   .sessao-p1{
     font-size: 2rem;
   }
   #perfil,
-  .section-container {
+  .sessao-container {
     display: block;
    
   }
 
-  .arrow {
-    display: none;
-  }
-
   section,
-  .section-container {
+  .sessao-container {
     height: fit-content;
   }
 
@@ -170,7 +166,7 @@
   
   }
   @media screen and (max-height: 778px)  {
-    #experience{
+    #experiencia{
       margin: 10rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
     
       }
@@ -182,7 +178,7 @@
         }
       }
     @media screen and (max-height: 560px)  {
-      #experience{
+      #experiencia{
         margin: 12rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
       
         }
@@ -225,7 +221,7 @@
     font-size: 1.2rem;
   }
   
-  .experience-sub-title {
+  .experiencia-sub-titulo {
     font-size: 1.25rem;
   }
   .logo {
@@ -248,30 +244,25 @@
   .titulo {
     font-size: 2.2rem;
   }
-  .text-container {
+  .texto-container {
     text-align: center;
   }
   /* section {
     margin: 2rem 5% 0 5%; /* Aumentei a margem superior para 5rem 
   } */
   
-  .experience-details-container {
+  .experiencia-container {
     margin: 2rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
   }
-  /* .details-container{
-    margin: 1rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
-  /* }
-  .sobre-containers{ */
-    /* margin: 1rem 5% 0 5%; Aumentei a margem superior para 5rem */
-  /* } */ 
+ 
   @media screen and (max-height: 778px)  {
-    #experience{
+    #experiencia{
       margin: 10rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
     
       }
     }
     @media screen and (max-height: 560px)  {
-      #experience{
+      #experiencia{
         margin: 12rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
       
         }
@@ -308,21 +299,21 @@
 #contato{
   margin: 10rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
 }
-.experience-details-container{
+.experiencia-container{
   margin: 2rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
   }
-  #experience{
+  #experiencia{
     margin: 8rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
   
     }
     @media screen and (max-height: 778px)  {
-      #experience{
+      #experiencia{
         margin: 10rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
       
         }
       }
       @media screen and (max-height: 560px)  {
-        #experience{
+        #experiencia{
           margin: 12rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
         
           }
