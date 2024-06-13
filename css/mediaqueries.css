@@ -139,6 +139,7 @@
   #profile,
   .section-container {
     display: block;
+   
   }
 
   .arrow {
@@ -151,17 +152,15 @@
   }
 
   section {
-    margin: 11rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+    margin: 9rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
   }
 
   .section__pic-container {
-    /* width: 245px;
-    height: 340px;  */
+     width: 260px;
+    height: 260px;  
     margin: 0 auto 2rem;
-    
   }
   
-
   .sobre-containers {
     margin-top: 0;
   }
@@ -176,12 +175,19 @@
     
       }
     }
+    @media screen and (max-height: 601px)  {
+      #contato{
+        margin: 14.8rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+      
+        }
+      }
     @media screen and (max-height: 560px)  {
       #experience{
         margin: 12rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
       
         }
       }
+      
 }
 
 @media screen and (max-width: 600px) {
@@ -203,11 +209,12 @@
     height: fit-content;
     margin-bottom: 2rem;
   }
-  .sobre-containers,
+  
   .contact-info-upper-container,
   .btn-container {
     flex-wrap: wrap;
   }
+  
   .contato-container{
     font-size: 0.8rem;
   }
@@ -239,7 +246,7 @@
     font-size: 1.25rem;
   }
   .title {
-    font-size: 2rem;
+    font-size: 2.2rem;
   }
   .text-container {
     text-align: center;
@@ -274,6 +281,12 @@
   section{
     margin: 9rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
   }
+  /* .sobre-containers{
+    flex-direction: column;
+    align-items: center;
+     width: 50vh; 
+     height: 50vh;  
+  } */
 
 }
 @media screen and (max-width: 376px) {
@@ -281,7 +294,7 @@
     font-size: 1.9rem;
   }
   section {
-    margin: 8rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+    margin: 9rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
     
   }
   .links{
