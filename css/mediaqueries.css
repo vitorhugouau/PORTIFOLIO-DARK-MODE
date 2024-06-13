@@ -270,6 +270,12 @@
         }
       }
 }
+@media screen and (max-width: 560px) {
+  section{
+    margin: 9rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+  }
+
+}
 @media screen and (max-width: 376px) {
   .logo{
     font-size: 1.9rem;
