@@ -45,7 +45,7 @@
   
 }
 @media screen and (max-width: 1400px) {
-  #profile {
+  #perfil {
     height: 83vh;
     margin-bottom: 6rem;
   }
@@ -133,10 +133,10 @@
   .experience-details-container {
     margin-top: 7rem;
   }
-  .section__text__p1{
+  .sessao-p1{
     font-size: 2rem;
   }
-  #profile,
+  #perfil,
   .section-container {
     display: block;
    
@@ -155,7 +155,7 @@
     margin: 9rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
   }
 
-  .section__pic-container {
+  .foto-container {
      width: 260px;
     height: 260px;  
     margin: 0 auto 2rem;
@@ -198,7 +198,7 @@
   .projeto-footer{
     margin-top: 2em; /* Adicionei margem superior */
   }
-  #profile {
+  #perfil {
     height: 83vh;
     margin-bottom: 0;
   }
@@ -211,7 +211,7 @@
   }
   
   .contact-info-upper-container,
-  .btn-container {
+  .container-botao {
     flex-wrap: wrap;
   }
   
@@ -221,7 +221,7 @@
   .contact-info-container {
     margin: 0;
   }
-  .section__text__p1{
+  .sessao-p1{
     font-size: 1.2rem;
   }
   
@@ -237,15 +237,15 @@
     width: 45px;
     
   }
-  .section__pic-container {
+  .foto-container {
     width: auto;
     height: 60vw;
     justify-content: center;
   }
-  .section__text__p2 {
+  .sessao-p2 {
     font-size: 1.25rem;
   }
-  .title {
+  .titulo {
     font-size: 2.2rem;
   }
   .text-container {
