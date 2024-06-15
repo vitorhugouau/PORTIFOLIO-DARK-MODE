@@ -63,6 +63,9 @@
   .projeto-footer{
     margin-top: 8em; /* Adicionei margem superior */
   }
+  section{
+    margin: 2rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+  }
   @media screen and (max-height: 778px)  {
     #experiencia{
       margin: 10rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
@@ -139,6 +142,7 @@
   #perfil,
   .sessao-container {
     display: block;
+    
    
   }
 
@@ -152,7 +156,7 @@
   }
 
   .foto-container {
-     width: 260px;
+    width: 200px;
     height: 260px;  
     margin: 0 auto 2rem;
   }
