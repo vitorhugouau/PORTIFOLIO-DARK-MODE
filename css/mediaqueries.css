@@ -154,6 +154,11 @@
   }
 
   .foto-container {
+    width: 260px;
+    height: 260px;  
+    margin: 0 auto 2rem;
+  }
+  .foto-container2 {
     width: 200px;
     height: 260px;  
     margin: 0 auto 2rem;
@@ -192,6 +197,11 @@
   .foto-container {
     width: 260px;
     height: 260px;  
+    margin: 0 auto 2rem;
+  }
+  .foto-container2 {
+    width: 170px;
+    height: 240px;  
     margin: 0 auto 2rem;
   }
 
@@ -245,6 +255,11 @@
     
   }
   .foto-container {
+    width: auto;
+    height: 60vw;
+    justify-content: center;
+  }
+  .foto-container2 {
     width: auto;
     height: 60vw;
     justify-content: center;
