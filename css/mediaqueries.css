@@ -399,6 +399,7 @@
     font-size: 1.3rem;
   }
   .icon{
+    
     width: 17px;
     height: 17px;
   }
@@ -410,16 +411,17 @@
   }
   #contato{
     margin: 24rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
-    }
-    .contato-container{
-      border: none;
-      align-items: center;
-      flex-direction: column;
-      font-size: 0.4rem;
-      width: 30px;;
-    }
-
-
-
-
+  }
+  .contato-container{
+    border: none;
+    align-items: center;
+    flex-direction: column;
+    font-size: 0.5rem;
+    width: 1rem;
+    padding: 1rem;
+    
+  }
+  img.icon.contato-icon.email-icon,img.icon.contato-icon{
+    display: none;
+}
 }
