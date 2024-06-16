@@ -371,7 +371,7 @@
   }
   footer p {
     text-align: center;
-    margin-top: 20rem; /* Adicionei margem superior */
+    margin-top: 15rem; /* Adicionei margem superior */
   }
   .sobre-detalhes-container{
     margin: 2rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
@@ -410,7 +410,7 @@
     font-size: 1rem;
   }
   #contato{
-    margin: 24rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+    margin: 25rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
   }
   .contato-container{
     border: none;
