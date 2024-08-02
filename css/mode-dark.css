@@ -1,20 +1,19 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
-
-:root{
-  --rgb858585: rgb(85, 85, 85);
-  --black: black;
-  --white: white;
-  --grey: grey;
-  --rgb181: rgb(181, 181, 181);
-  --rgb53: rgb(53, 53, 53) 0.1rem solid;
-  --rgb535353: rgb(53, 53, 53);
-  --rgb255: rgb(255, 255, 255) 0.1rem solid;
-  --rgb: rgb(163, 163, 163);
-  --rgb0: rgb(0, 0, 0);
-  --rgb250: rgb(250, 250, 250);
-}
-
-
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+  
+:root.dark {
+    --rgb858585: rgb(170, 170, 170); 
+    --black: white; 
+    --white: black; 
+    --grey: rgb(191, 191, 191); 
+    --rgb181: rgb(74, 74, 74); 
+    --rgb53: rgb(202, 202, 202) 0.1rem solid; 
+    --rgb535353: rgb(202, 202, 202); 
+    --rgb255: rgb(0, 0, 0) 0.1rem solid; 
+    --rgb: rgb(92, 92, 92); 
+    --rgb0: rgb(255, 255, 255); 
+    --rgb250: rgb(5, 5, 5); 
+  }
+  
 * {
   margin: 0;
   padding: 0;
@@ -22,118 +21,21 @@
   box-sizing: border-box;
 }
 
-/* -----------------------mode dark----------------------- */
-body {
-  font-family: "Poppins", sans-serif;
-  background-color: var(--white);
-  transition: background 0.2s linear;
+body.dark {
+  background: var(--black);;
 }
 
-
-.checkbox {
-  opacity: 0;
-  position: absolute;
-}
-.check{
-  padding: 16px;
-}
-
-.label {
-  background-color: #111;
-  border-radius: 50px;
-  cursor: pointer;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 4px; /*aqui*/
-  position: relative;
-  height: 30px; /*aqui*/
-  width: 56px; /*aqui*/
-  transform: scale(1.5);
-
-}
-.label i {
-    font-size: 15px; /* Adjust icon size */
-    padding: 5px;
-
-  }
-
-.label .ball {
-  background-color: #fff;
-  border-radius: 50%;
-  position: absolute;
-  top: 3px;
-  left: 4px; /*aqui*/
-  height: 24px; /*aqui*/
-  width: 24px; /*aqui*/
-  transform: translateX(0px);
-  transition: transform 0.2s linear;
-}
-.label .ball {
-  background-color: #fff;
-  border-radius: 50%;
-  position: absolute;
-  top: 3px;
-  left: 4px; /*aqui*/
-  height: 24px; /*aqui*/
-  width: 24px; /*aqui*/
-  transform: translateX(0px);
-  transition: transform 0.2s linear;
-}
-
-.checkbox:checked + .label .ball {
-  transform: translateX(24px);
-}
-
-.fa-moon {
-  color: #f1c40f;
-}
-
-.fa-sun {
-  color: #f39c12;
-}
-
-/* ---------------------principal------------------- */
-
-html {
-  scroll-behavior: smooth;
-}
-
-p {
-  color: var(--rgb858585);
-}
-
-a,
-.btn {
-  transition: all 300ms ease;
-}
-
-nav,
-.links {
-  display: flex;
-}
-
-nav {
-  justify-content: space-around;
-  align-items: center;
-  height: 17vh;
-}
-
-.links {
-  gap: 2rem;
-  list-style: none;
-  font-size: 1.5rem;
-  z-index: 99;
-  display: flex;
-}
-
-a {
+a.dark{
   color: var(--black);
   text-decoration: none;
   text-decoration-color: var(--white);;
 }
 
-a:hover {
+p.dark{
+  color: var(--rgb858585);
+}
+
+a:hover .dark{
   color: var(--grey);
   text-decoration: underline;
   text-underline-offset: 1rem;
@@ -425,3 +327,5 @@ footer p {
 .projeto-footer{
   margin-top: 28em; /* Adicionei margem superior */
 }
+
+

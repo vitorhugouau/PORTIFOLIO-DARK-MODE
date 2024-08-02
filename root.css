@@ -1,0 +1,13 @@
+:root.dark {
+    --rgb858585: rgb(170, 170, 170); /* Complementary color */
+    --black: white; /* Inverted color */
+    --white: black; /* Inverted color */
+    --grey: rgb(191, 191, 191); /* Complementary color */
+    --rgb181: rgb(74, 74, 74); /* Complementary color */
+    --rgb53: rgb(202, 202, 202) 0.1rem solid; /* Complementary color */
+    --rgb535353: rgb(202, 202, 202); /* Complementary color */
+    --rgb255: rgb(0, 0, 0) 0.1rem solid; /* Complementary color */
+    --rgb: rgb(92, 92, 92); /* Complementary color */
+    --rgb0: rgb(255, 255, 255); /* Complementary color */
+    --rgb250: rgb(5, 5, 5); /* Complementary color */
+  }

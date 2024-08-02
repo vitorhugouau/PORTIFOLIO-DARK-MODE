@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portifólio</title>
     <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/mode-dark.css">
     <link rel="stylesheet" href="/css/mediaqueries.css" />
   </head>
   <body>
@@ -19,11 +20,19 @@
             <li><a href="/html/experiencia.html">Experiência</a></li>
             <li><a href="/html/projetos.html">Projetos</a></li>
             <li><a href="/html/contato.html">Contatos</a></li>
+            <div class="check">
+              <input type="checkbox" class="checkbox" id="chk" />
+                <label class="label" for="chk">
+                  <i class="fas fa-moon"></i>
+                  <i class="fas fa-sun"></i>
+                  <div class="ball"></div>
+                </label>
+            </div>
           </ul>
         </div>
       </nav>
     </div>
-    
+
     <!-- --------------------------------------------------------------------------------------------------------------- -->
     <section id="perfil">
       <div class="foto-container">
@@ -58,6 +67,9 @@
     <footer>
       <p>Copyright &#169; 2024 Vitor Hugo. Todos os direitos reservados.</p>
     </footer>
+    
+    <script src="/js/script.js"></script>
+    <script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
     
   </body>
 </html>
