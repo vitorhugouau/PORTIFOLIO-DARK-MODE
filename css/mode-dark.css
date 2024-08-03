@@ -6,7 +6,7 @@
     --white: black; 
     --grey: rgb(191, 191, 191); 
     --rgb181: rgb(74, 74, 74); 
-    --rgb53: rgb(202, 202, 202) 0.1rem solid; 
+    --rgb53: rgb(255, 255, 255) 0.1rem solid; 
     --rgb535353: rgb(202, 202, 202); 
     --rgb255: rgb(0, 0, 0) 0.1rem solid; 
     --rgb: rgb(92, 92, 92); 
@@ -23,6 +23,30 @@
 
 body.dark {
   background: var(--black);;
+}
+.label .dark{
+  background-color: var(--black);
+  border-radius: 50px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px; /*aqui*/
+  position: relative;
+  height: 30px; /*aqui*/
+  width: 56px; /*aqui*/
+  transform: scale(1.5);
+}
+.label .ball .dark{
+  background-color: var(--white);
+  border-radius: 50%;
+  position: absolute;
+  top: 3px;
+  left: 4px; /*aqui*/
+  height: 24px; /*aqui*/
+  width: 24px; /*aqui*/
+  transform: translateX(0px);
+  transition: transform 0.2s linear;
 }
 
 a.dark{
@@ -105,6 +129,7 @@ section {
 .titulo {
   font-size: 3rem;
   text-align: center;
+  color: var(--black);
 }
 
 #sociais {
@@ -125,6 +150,9 @@ section {
   gap: 1rem;
 }
 
+h3{
+  color: var(--black);
+}
 .btn {
   font-weight: 600;
   transition: all 300ms ease;
@@ -134,7 +162,7 @@ section {
 }
 
 .btn-color-1,
-.btn-color-2 {
+.btn-color-2 .dark{
   border: var(--rgb53);
 }
 
@@ -144,12 +172,12 @@ section {
 }
 
 .btn-color-1,
-.btn-color-2:hover {
+.btn-color-2:hover .dark{
   background: var(--rgb535353);;
   color: var(--white);;
 }
 
-.btn-color-1:hover {
+.btn-color-1:hover .dark{
   background: var(--rgb0);
 }
 
@@ -157,7 +185,7 @@ section {
   background: none;
 }
 
-.btn-color-2:hover {
+.btn-color-2:hover .dark{
   border: var(--rgb255);
 }
 
@@ -189,7 +217,7 @@ section {
   border-radius: 2rem;
 }
 
-.detalhes-container {
+.detalhes-container .dark{
   padding: 3.5rem;
   width: 7rem !important;
   display: flex;
@@ -214,7 +242,7 @@ section {
   position: relative;
 }
 
-.experiencia-sub-titulo {
+.experiencia-sub-titulo .dark{
   color: var(--rgb858585);
   font-weight: 600;
   font-size: 1.75rem;
@@ -251,7 +279,7 @@ article .icon {
   position: relative;
 }
 
-.color-container {
+.color-container .dark{
   border-color: var(--rgb163);
   background: var(--rgb250);
 }
@@ -262,12 +290,12 @@ article .icon {
   height: 90%;
 }
 
-.titulo-projeto {
+.titulo-projeto .dark{
   margin: 1rem;
   color: var(--black);
 }
 
-.projetos-botao {
+.projetos-botao .dark{
   color: var(--black);
   border-color: var(--rgb163);
 }
@@ -281,7 +309,7 @@ article .icon {
   height: 70vh;
 }
 
-.contato-container {
+.contato-container .dark{
   display: flex;
   justify-content: center;
   border-radius: 2rem;

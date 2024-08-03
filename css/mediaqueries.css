@@ -46,7 +46,7 @@
 }
 @media screen and (max-width: 1400px) {
   #perfil {
-    height: 83vh;
+    height: 57vh;
     margin-bottom: 6rem;
   }
   .sobre-containers {
@@ -61,9 +61,18 @@
     margin-top: 5rem; /* Adicionei margem superior */
   }
   .projeto-footer{
-    margin-top: 8em; /* Adicionei margem superior */
+    margin-top: 5em; /* Adicionei margem superior */
   }
-  section{
+  footer {
+    height: 26vh;
+    margin: 0 1rem;
+  }
+  
+  footer p {
+    text-align: center;
+    margin-top: 10em; /* Adicionei margem superior */
+  }
+  section {
     margin: 2rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
   }
   @media screen and (max-height: 778px)  {
@@ -150,7 +159,7 @@
   }
 
   section {
-    margin: 9rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+    margin: 14rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
   }
 
   .foto-container {
@@ -172,6 +181,10 @@
     margin-top: 5rem; /* Adicionei margem superior */
   
   }
+  #sobre {
+    margin: 9rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+    position: relative;
+  }
   @media screen and (max-height: 778px)  {
     #experiencia{
       margin: 10rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
@@ -192,6 +205,12 @@
       }
       
 }
+@media screen and (max-width: 884px) {
+  #sobre {
+    margin: 5rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+    position: relative;
+  }
+}
 @media screen and (max-width: 834px) {
 
   .foto-container {
@@ -205,6 +224,15 @@
     margin: 0 auto 2rem;
   }
 
+}
+@media screen and (max-width: 768px) {
+  section{
+    margin: 10rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+  }
+  #sobre {
+    margin: 6rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+    position: relative;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -293,26 +321,34 @@
       
         }
       }
+      
 }
+
 @media screen and (max-width: 560px) {
   section{
-    margin: 9rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+    margin: 13rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
   }
-  /* .sobre-containers{
-    flex-direction: column;
-    align-items: center;
-     width: 50vh; 
-     height: 50vh;  
-  } */
+  #sobre {
+    margin: 11rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+    position: relative;
+  }
 
 }
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 414px) {
+  section{
+    margin: 11rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+  }
+  #sobre {
+    margin: 12rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+    position: relative;
+  }
+}
+@media screen and (max-width: 393px) {
   .logo{
     font-size: 1.9rem;
   }
   section {
-    margin: 9rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
-    
+    margin: 13rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
   }
   .links{
     font-size: 1.4rem;
@@ -320,7 +356,10 @@
   }
   .contato-container {
   font-size: 0.6rem;
-
+}
+#sobre {
+  margin: 12rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+  position: relative;
 }
 #contato{
   margin: 10rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
@@ -350,21 +389,39 @@
         
           }
         }
+
+}
+@media screen and (max-width: 375px) {
+  #sobre {
+    margin: 13rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  #sobre {
+    margin: 13rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+    position: relative;
+  }
 }
 
 @media screen and (max-width: 320px) {
 
   section {
-    margin: 14rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+    margin: 16rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
     }
   #contato{
     margin: 16rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+    }
+    #sobre {
+      margin: 15rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+      position: relative;
     }
 }
 
 @media screen and (max-width: 162px) {
   section{
-    margin: 16rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+    margin: 19rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
   }
   .detalhes-container{
     border: none;
@@ -377,6 +434,10 @@
     margin: 2rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
     font-size: 0.8rem;
     align-items: center;
+  }
+  #sobre {
+    margin: 16rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+    position: relative;
   }
   #experiencia{
     margin: 17rem 5% 0 5%; /* Aumentei a margem superior para 5rem */

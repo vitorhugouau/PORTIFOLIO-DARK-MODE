@@ -29,17 +29,17 @@ body {
   transition: background 0.2s linear;
 }
 
-
 .checkbox {
   opacity: 0;
   position: absolute;
 }
 .check{
-  padding: 16px;
+  padding: 7px;
+  height: 55px;
 }
 
 .label {
-  background-color: #111;
+  background-color: var(--black);
   border-radius: 50px;
   cursor: pointer;
   display: flex;
@@ -50,8 +50,8 @@ body {
   height: 30px; /*aqui*/
   width: 56px; /*aqui*/
   transform: scale(1.5);
-
 }
+
 .label i {
     font-size: 15px; /* Adjust icon size */
     padding: 5px;
@@ -59,18 +59,7 @@ body {
   }
 
 .label .ball {
-  background-color: #fff;
-  border-radius: 50%;
-  position: absolute;
-  top: 3px;
-  left: 4px; /*aqui*/
-  height: 24px; /*aqui*/
-  width: 24px; /*aqui*/
-  transform: translateX(0px);
-  transition: transform 0.2s linear;
-}
-.label .ball {
-  background-color: #fff;
+  background-color: var(--white);
   border-radius: 50%;
   position: absolute;
   top: 3px;
@@ -181,7 +170,9 @@ section {
   margin: auto 0;
   border-radius: 50%;
 }
-
+h3{
+  color: var(--black);
+}
 .sessao-texto {
   align-self: center;
   text-align: center;
@@ -264,6 +255,7 @@ section {
 }
 
 #sobre {
+  margin: 3rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
   position: relative;
 }
 
@@ -420,8 +412,8 @@ footer {
 footer p {
   text-align: center;
   margin-top: 2em; /* Adicionei margem superior */
-
 }
 .projeto-footer{
   margin-top: 28em; /* Adicionei margem superior */
 }
+
