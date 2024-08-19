@@ -500,6 +500,9 @@
 }
 
 @media screen and (max-width: 360px) { /* Samsung Galaxy S20*/
+  #perfil {
+    margin: 15rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+  }
   #sobre {
     margin: 13rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
     position: relative;
