@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/css/mode-dark.css">
     <link rel="stylesheet" href="/css/mediaqueries.css" />
   </head>
+
   <body>
     <div class="container-header">
       <nav id="nav">
@@ -69,27 +70,33 @@
     <script src="js/botao.js"></script>
     <script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
 
-    <script>
+    <!-- <script>
       window.onload = function() {
           const checkbox = document.getElementById('chk');
-          const isDarkMode = localStorage.getItem('theme') === 'dark';
+          const isDarkMode = localStorage.getItem('theme') === '.dark';
           
           if (isDarkMode) {
-            document.documentElement.classList('dark');
+              console.log("Dark mode is enabled.");
+              document.documentElement.classList.add('.dark');
               checkbox.checked = true;
           }
   
           checkbox.addEventListener('change', function() {
-            document.documentElement.classList.toggle('dark');
-  
-              if (document.documentElement.classList.contains('dark')) {
-                  localStorage.setItem('theme', 'dark');
+              console.log("Checkbox state changed.");
+              document.documentElement.classList.toggle('.dark');
+              
+              if (document.documentElement.classList.contains('.dark')) {
+                  localStorage.setItem('theme', '.dark');
+                  console.log("Theme set to dark.");
               } else {
                   localStorage.setItem('theme', 'light');
+                  console.log("Theme set to light.");
               }
+  
+              console.log("Current theme in localStorage:", localStorage.getItem('theme'));
           });
       }
-  </script>
+  </script> -->
     
   </body>
 </html>

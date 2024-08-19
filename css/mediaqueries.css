@@ -104,6 +104,7 @@
         }
       }
 }
+
 @media screen and (max-width: 1200px) {
 
   #nav {
@@ -140,10 +141,12 @@
     align-items: center;
     margin-top: 1rem; /* Adicionei margem superior */
   }
-
-  #experiencia,
+  #experiencia{
+    margin: 12rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+  }
+  
   .experiencia-container {
-    margin-top: 7rem;
+    margin-top: 4rem;
   }
   .sessao-p1{
     font-size: 2rem;
@@ -205,10 +208,23 @@
       }
       
 }
-@media screen and (max-width: 884px) {
+@media screen and (max-width: 1114px) { /* Microsoft Surface Duo */ 
   #sobre {
-    margin: 5rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+    margin: 13rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
     position: relative;
+  }
+  #experiencia{
+    margin: 15rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+  }
+}
+
+@media screen and (max-width: 884px) { /* Galaxy Fold2*/ 
+  #sobre {
+    margin: 8rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+    position: relative;
+  }
+  #experiencia{
+    margin: 10rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
   }
 }
 @media screen and (max-width: 834px) {
@@ -225,12 +241,33 @@
   }
 
 }
+@media screen and (max-width: 834px) {
+  #sobre {
+    margin: 7rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+    position: relative;
+  }
+  #projetos{
+    margin: 8rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+  }
+  .sobre-containers{
+    margin: -2rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+  }
+  #experiencia{
+    margin: 9rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+  }
+}
+
+@media screen and (max-width: 820px) {
+  #contato{
+    margin: 6rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+  }
+}
 @media screen and (max-width: 768px) {
   section{
-    margin: 10rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+    margin: 12rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
   }
   #sobre {
-    margin: 6rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+    margin: 9rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
     position: relative;
   }
 }
@@ -304,14 +341,16 @@
   /* section {
     margin: 2rem 5% 0 5%; /* Aumentei a margem superior para 5rem 
   } */
-  
+  #experiencia{
+    margin: 12rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+  }
   .experiencia-container {
-    margin: 2rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+    margin: 4rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
   }
  
   @media screen and (max-height: 778px)  {
     #experiencia{
-      margin: 10rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+      margin: 11rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
     
       }
     }
@@ -324,7 +363,7 @@
       
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 568px) {
   section{
     margin: 13rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
   }
@@ -332,9 +371,32 @@
     margin: 11rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
     position: relative;
   }
-
+  /* #projetos {
+   padding: 5rem;
+   align-items: center;
+   left: -9px;
+ */
 }
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 428px) { /* Iphone 13*/ 
+  #projetos{
+    margin: 12rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+  }
+  .sobre-containers{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin: -2rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+  }
+  .detalhes-container{
+    padding: 1rem;
+    width: 15rem !important;
+  }
+  #experiencia{
+    margin: 13rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+  }
+
+} 
+@media screen and (max-width: 414px) {  /* Iphone XR*/
   section{
     margin: 11rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
   }
@@ -342,8 +404,28 @@
     margin: 12rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
     position: relative;
   }
+  #projetos{
+    margin: 11rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+  }
+  .sobre-containers{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin: 0rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+  }
+  .detalhes-container{
+    padding: 1rem;
+    width: 20rem !important;
+  }
+  #experiencia{
+    margin: 13rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+  }
+  #contato{
+    margin: 14rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+  }
 }
-@media screen and (max-width: 393px) {
+@media screen and (max-width: 393px) { /* Galaxy Pixel 5*/
+
   .logo{
     font-size: 1.9rem;
   }
@@ -356,70 +438,131 @@
   }
   .contato-container {
   font-size: 0.6rem;
-}
-#sobre {
-  margin: 12rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
-  position: relative;
-}
-#contato{
-  margin: 10rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
-}
-.experiencia-container{
-  margin: 2rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+  }
+  #sobre {
+    margin: 12rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+    position: relative;
+  }
+  #contato{
+    margin: 10rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+  }
+  .experiencia-container{
+    margin: 2rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+    }
+    #projetos{
+      margin: 12rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+    }
+    .sobre-containers{
+      display: grid;
+      align-items: center;
+      justify-content: center;
+      margin: 0rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+    }
+    .detalhes-container{
+      padding: 1rem;
+      width: 15rem !important;
+    }
+
+    #experiencia{
+      margin: 11rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+    }
+
+  @media screen and (max-height: 844px)  {
+    #contato{
+      margin: 13rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+    }
+  
+  }
+  @media screen and (max-height: 780px)  {
+    #experiencia{
+      margin: 13rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+    
+      }
+    }
+    @media screen and (max-height: 560px)  {
+      #experiencia{
+        margin: 12rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+        }
+      }
+      
+    }
+@media screen and (max-width: 375px) { /* Iphone X*/
+  #sobre {
+    margin: 13rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+    position: relative;
   }
   #experiencia{
-    margin: 8rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
-  
+    margin: 14rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+  }
+  #contato{
+    margin: 16rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+  }
+}
+
+@media screen and (max-width: 360px) { /* Samsung Galaxy S20*/
+  #sobre {
+    margin: 13rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+    position: relative;
+  }
+  #experiencia{
+    margin: 13rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
     }
-    @media screen and (max-height: 844px)  {
+    #projetos{
+      margin: 12rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+    }
+    .sobre-containers{
+      display: grid;
+      align-items: center;
+      justify-content: center;
+      margin: 1rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+    }
+    .detalhes-container{
+      padding: 1rem;
+      width: 15rem !important;
+    }
+    #contato{
+      margin: 15rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+    }
+    @media screen and (max-height: 880px)  {
       #contato{
-        margin: 12rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+        margin: 14rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
       }
-    
-    }
-    @media screen and (max-height: 780px)  {
-      #experiencia{
-        margin: 10rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
-      
-        }
-      }
-      @media screen and (max-height: 560px)  {
-        #experiencia{
-          margin: 12rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
         
-          }
-        }
-
-}
-@media screen and (max-width: 375px) {
-  #sobre {
-    margin: 13rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
-    position: relative;
-  }
+    }
+    
 }
 
-@media screen and (max-width: 360px) {
-  #sobre {
-    margin: 13rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
-    position: relative;
-  }
-}
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 320px) { /* Iphone 5*/
 
   section {
     margin: 16rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
     }
   #contato{
-    margin: 16rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+    margin: 21rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
     }
     #sobre {
       margin: 15rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
       position: relative;
     }
+    #projetos{
+      margin: 16rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+    }
+    #experiencia{
+      margin: 16rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+    }
+    .sobre-containers{
+      display: grid;
+      align-items: center;
+      justify-content: center;
+      margin: 1rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+    }
+    .detalhes-container{
+      padding: 0.5rem;
+      width: 15rem !important;
+    }
 }
 
-@media screen and (max-width: 162px) {
+@media screen and (max-width: 162px) { /* Apple Watch Serie 6*/ 
   section{
     margin: 19rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
   }
@@ -428,7 +571,7 @@
   }
   footer p {
     text-align: center;
-    margin-top: 15rem; /* Adicionei margem superior */
+    margin-top: 5rem; /* Adicionei margem superior */
   }
   .sobre-detalhes-container{
     margin: 2rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
@@ -436,11 +579,11 @@
     align-items: center;
   }
   #sobre {
-    margin: 16rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+    margin: 19rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
     position: relative;
   }
   #experiencia{
-    margin: 17rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+    margin: 20rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
     
     align-items: center;
   }
@@ -452,12 +595,12 @@
     font-size: 1.5rem;
   }
   .experiencia-container{
-    font-size: 0.5rem;
+    font-size: 0.2rem;
     align-items: center;
   }
 
   .experiencia-sub-titulo{
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
   .icon{
     
@@ -471,7 +614,7 @@
     font-size: 1rem;
   }
   #contato{
-    margin: 25rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
+    margin: 30rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
   }
   .contato-container{
     border: none;
