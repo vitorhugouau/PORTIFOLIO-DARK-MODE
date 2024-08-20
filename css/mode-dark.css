@@ -90,7 +90,7 @@ section {
   display: flex;
   justify-content: center;
   gap: 5rem;
-  height: 80vh;
+  height: 67vh;
 }
 
 .foto-container {
@@ -349,7 +349,7 @@ footer {
 
 footer p {
   text-align: center;
-  margin-top: 2em; /* Adicionei margem superior */
+  margin-top: 9em; /* Adicionei margem superior */
 
 }
 .projeto-footer{
