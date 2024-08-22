@@ -118,7 +118,7 @@
     flex-direction: column;
     align-items: center;
     z-index: 10;
-    margin-top: 3rem; /* Adicionei margem superior */
+    margin-top: 4rem; /* Adicionei margem superior */
   }
   #contato{
     margin: 10rem 5% 0 5%; /* Aumentei a margem superior para 5rem */
