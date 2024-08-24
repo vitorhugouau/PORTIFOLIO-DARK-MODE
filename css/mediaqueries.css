@@ -44,6 +44,12 @@
         }
   
 }
+@media screen and (max-width: 1600px) {
+  #perfil{
+    height: 60vh;
+  }
+
+}
 @media screen and (max-width: 1400px) {
   #perfil {
     height: 57vh;
@@ -426,6 +432,13 @@
 }
 @media screen and (max-width: 393px) { /* Galaxy Pixel 5*/
 
+  #nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 10;
+    margin-top: 5rem; /* Adicionei margem superior */
+  }
   .logo{
     font-size: 1.9rem;
   }
