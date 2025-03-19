@@ -4,7 +4,7 @@
 ![Screenshot](./assets/pic/home-dark.png)
 
 
-Este é um site de portfólio responsivo criado com HTML e CSS simples.
+Este é um site de portfólio responsivo criado com HTML, CSS e JS simples.
 
 # Sobre 
 
